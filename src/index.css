@@ -1,0 +1,16 @@
+.square {
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: 0px;
+  margin-top: 0px;
+  height: 34px;
+  width: 34px;
+  }
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
